@@ -343,7 +343,7 @@ export default StyleSheet.create({
 		marginLeft: 10,
 		height: 50,
 		borderRadius: 25,
-		backgroundColor: SECONDARY_COLOR,
+		backgroundColor: PRIMARY_COLOR,
 		paddingHorizontal: 20
 	},
 

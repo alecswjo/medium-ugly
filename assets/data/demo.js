@@ -6,8 +6,15 @@ module.exports = [
 		match: '78',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
+		age: '27',
+		location: 'Irvine, CA',
+		info1: 'Straight, Single, 5"10',
+		info2: 'Tea Totaller, Loves Photography & Travel',
+		info3: 'Beaches, Mountain, Cafe, Movies',
+		info4: 'Last seen: 23h ago',
+		status: 'Online',
 		message:
-			'I will go back to Gotham and I will fight men Iike this but I will not become an executioner.',
+			"And as for the television's so-called plan, Batman has no jurisdiction.",
 		image: require('../images/01.jpg')
 	},
 	{

@@ -126,16 +126,6 @@ export default class CreateProfile extends Component {
               )}
             </Button>
 
-            <Button onPress={() => navigation.navigate("Welcome")}>
-              <Text
-                gray
-                caption
-                center
-                style={{ textDecorationLine: "underline" }}
-              >
-                Back to Welcome Page
-              </Text>
-            </Button>
           </Block>
         </Block>
       </KeyboardAvoidingView>

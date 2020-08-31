@@ -1634,6 +1634,52 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@progress/kendo-popup-common@^1.2.2":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-popup-common/-/kendo-popup-common-1.7.0.tgz#d0d29dbc5eacdaba8803aa3d0f69f8a8ad05dbff"
+  integrity sha512-KxPIXDkirDpJaF/UWFKbe8QpbO5CwdQH/HyNT5Fj1qZb25YaO68VZCisls2qkcEVPHBlXesDcN3QJlt4vJ6tJw==
+
+"@progress/kendo-react-buttons@^3.16.0":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-buttons/-/kendo-react-buttons-3.16.0.tgz#d9d2a0c67b443ba99794a16114cb1fe2e5f6b601"
+  integrity sha512-poiW9K5kz1S0bhlRb9R1aFNE1beWwE62s7q4XVelttD9/PsT13V0E1oWdprWdwnAo7DD2ZdKyB65gK5cMu7U5Q==
+  dependencies:
+    "@progress/kendo-react-common" "3.16.0"
+    "@progress/kendo-react-popup" "3.16.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-common@3.16.0":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-common/-/kendo-react-common-3.16.0.tgz#c8aae3e7b7dcdfb4e5f054a9fec120bc7c8da6fc"
+  integrity sha512-auKiYIPf7YgkPZI2VOJgRfCHQInt0mCch5Axyi+0kGfw2lJOl1sWBizQc51x8PQ4q11UzZPguVWplLlv0MjrQw==
+  dependencies:
+    "@telerik/kendo-draggable" "^2.1.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-conversational-ui@^3.16.0":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-conversational-ui/-/kendo-react-conversational-ui-3.16.0.tgz#2692120bfaff29f0ff3eda7b6c2bac60c79a3ca7"
+  integrity sha512-RzV2OfWcaFBp/cshU9RFVeLZtB4d8OzcDBxo7jNjWfrrMFpNlIYnJgMZBSP2yNfv4O3ev6c0ZxxNz3z77nPikQ==
+  dependencies:
+    "@progress/kendo-react-common" "3.16.0"
+
+"@progress/kendo-react-intl@^3.16.0":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-intl/-/kendo-react-intl-3.16.0.tgz#db2fef521d0cba49d467ad2f1ab9e6db88c1df8c"
+  integrity sha512-STFnP7jNdF66eiENc9FazXFKELu84kwvgSYPAQp6pfto9ourU9kc54M5wh02/HAW3FPUwAYFm5SOB3GZRFXNsg==
+  dependencies:
+    "@telerik/kendo-intl" "^2.1.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-popup@3.16.0":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-popup/-/kendo-react-popup-3.16.0.tgz#f1c38c682a57468896877241d60afc7d0fbf1187"
+  integrity sha512-myr2vApYcrBuoi4OqtGPow9KOcyW8dlU7yQ7yfSHABAzi49QktQgQNxYQNRqDEPPqfTioQFnjYuMKZeTNn8I2g==
+  dependencies:
+    "@progress/kendo-popup-common" "^1.2.2"
+    "@progress/kendo-react-common" "3.16.0"
+    prop-types "^15.6.0"
+
 "@react-native-community/cli-debugger-ui@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-3.0.0.tgz#d01d08d1e5ddc1633d82c7d84d48fff07bd39416"
@@ -1861,6 +1907,16 @@
     hoist-non-react-statics "^3.0.1"
     react-native-safe-area-view "^0.14.1"
     react-native-screens "^1.0.0 || ^1.0.0-alpha"
+
+"@telerik/kendo-draggable@^2.1.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-draggable/-/kendo-draggable-2.2.0.tgz#651ee63e8978c3c9d8548a3ece37280ce5944863"
+  integrity sha512-78ofOzRpisqPjG51LfLQ4FEWoGJXs4PkzyJSdVklyFw6gtAnj/T6dp7mHIMj8BivVkN9FjNgf4Eo/mdYs9fusQ==
+
+"@telerik/kendo-intl@^2.1.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-intl/-/kendo-intl-2.2.0.tgz#7c88cd30c36fa6268afa4f43de5574950f8858ac"
+  integrity sha512-NYBXSzknwOZjdEWB62a5xXBuzNzHatNTT+0n7NvIotEyHl6wpcfVnqOkQ2DnrwN9VI0YzhPT9hbAhc+njUxQpw==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -5823,6 +5879,16 @@ react-devtools-core@^4.0.6:
     shell-quote "^1.6.1"
     ws "^7"
 
+react-dom@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
+  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-is@^16.12.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -6344,6 +6410,14 @@ scheduler@0.17.0:
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
   integrity sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"

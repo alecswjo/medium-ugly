@@ -26,7 +26,7 @@ class Welcome extends Component {
           </Text>
           <Text h1 primary>
               {" "}
-              Find your music match.
+              Find your perfect match.
           </Text>
           <Text h1 primary>
               {" "}
@@ -37,17 +37,17 @@ class Welcome extends Component {
           <Image
             source={require("../assets/images/logo.jpg")}
             resizeMode="contain"
-            style={{ width: width / 1.25, height: height / 2, overflow: "visible" }}
+            style={{ width: 325, height: 325, marginBottom: 50, borderRadius: 25  }}
           />
         </Block>
         
         <Block middle flex={0.5} margin={[theme.sizes.padding , theme.sizes.padding * 2]}>
-          <Button gradient onPress={() => navigation.navigate("SignUp")}>
+          <Button gradient onPress={() => navigation.navigate("CreateProfile")}>
             <Text center semibold white>
               Login with Google
             </Text>
           </Button>
-          <Button shadow onPress={() => navigation.navigate("SignUp")}>
+          <Button shadow onPress={() => navigation.navigate("CreateProfile")}>
             <Text center semibold>
               Login with Facebook
             </Text>

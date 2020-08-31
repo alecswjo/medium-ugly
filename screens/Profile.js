@@ -65,7 +65,7 @@ const Profile = () => {
               <Icon name="optionsH" />
             </Text>
           </TouchableOpacity> */}
-          <TouchableOpacity style={styles.roundedButton}>
+          <TouchableOpacity style={styles.roundedButton} onPress={() => navigation.navigate("EditProfile")}>
             <Text style={styles.textButton}>Edit Profile</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.roundedButton}>
