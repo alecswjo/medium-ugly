@@ -1,0 +1,43 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "expo": "^38.0.9",
+    "expo-asset": "~8.1.7",
+    "expo-font": "^8.2.2",
+    "expo-linear-gradient": "~8.2.1",
+    "expo-ui-kit": "^0.1.6",
+    "express": "^4.17.1",
+    "plaid": "^7.0.0",
+    "react": "16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-card-stack-swiper": "^1.1.0",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-plaid-link": "^1.4.4",
+    "react-native-plaid-link-sdk": "^5.0.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-slider": "^0.11.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "9.4.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.9.3",
+    "react-navigation-tabs": "^2.9.0",
+    "yellowbox-react": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.2.3"
+  },
+  "private": true
+}
